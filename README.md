@@ -11,11 +11,11 @@ Contador em JS que mostra quanto tempo falta para o primeiro dia do próximo ano
 
 ## Aprendizados:
 
-* Uso de funções e métodos de data como o Date( ) e getFullYear( );
-* Uso do temporizador setInterval( );
+* Uso de funções e métodos de data como o `Date()` e `getFullYear()`;
+* Uso do temporizador `setInterval()`;
 * Importações de fontes do google;
-* Uso do flex-wrap para responsividade.
+* Uso do `flex-wrap` para responsividade.
 
 ## Demonstração:
 
-![CountNY-Gif](https://github.com/DiasMath/CountNewYear/assets/92406256/8d58910f-b272-446b-8a2e-c573b3216b55)
+![CNY Gif certo](https://github.com/DiasMath/CountNewYear/assets/92406256/57d376dc-479d-4f5f-bc80-1f3b2e3b3f9e)
