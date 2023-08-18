@@ -23,10 +23,18 @@ function contagem() {
     horasEl.innerHTML = formatTime(hours);
     minutosEl.innerHTML = formatTime(mins);
     segundosEl.innerHTML = formatTime(seconds);
+
+    if (days === 0 && hours === 0 && mins === 0 && seconds === 0) {
+        alertaFelizAnoNovo();
+    }
 }
 
 function formatTime(time) {
     return time < 10 ? `0${time}` : time;
+}
+
+function alertaFelizAnoNovo() {
+    alert("Feliz Ano Novo!");
 }
 
 contagem();
