@@ -17,29 +17,22 @@ body{
 }
 
 h1{
-    font-weight:lighter;
+    font-weight: lighter;
     font-size: 4.2rem;
 }
 
-.contador-container{
+.contagem-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-.contador-numero{
-    font-weight: bold;
-    font-size: 6rem;
-    line-height: 1;
-    margin: 1rem 2.3rem;
-}
-
-.contador-el{
     text-align: center;
 }
 
-.contador-el span{
-    font-size: 1.3rem;
+.tempo{
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1;
+    margin: 0 2.3rem -.5rem;
 }
 
 .fundo-separado{
@@ -50,4 +43,8 @@ h1{
     margin: 1.5rem;
     box-shadow: 0px 0px 10px rgba(136, 136, 136, 0.3); /* Sombra suave */
     backdrop-filter: blur(.2rem);
+}
+
+.tempo span{
+    font-size: 1.3rem;
 }
